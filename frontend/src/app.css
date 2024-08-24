@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    cursor:default;
+}
+
+.container{
+    /* background-color: black; */
+    height: 100%;
+    /* width: 100%; */
+    width: 1310px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+
+.slide-up-fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.slide-up-fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+@media (max-width: 4704px){
+    .main-body{
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(to right, #000, #181e27, #000)
+    }
+    
+}

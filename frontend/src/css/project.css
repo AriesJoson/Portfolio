@@ -1,0 +1,30 @@
+
+.project-container{
+    height: 400px;
+    padding: 45px 0;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    /* background: radial-gradient(circle, rgba(78,66,185,0.9710259103641457) 100%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(to right, #000, #181e27, #000);
+}
+
+.project-header{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.project-text{
+    font-size: 48px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg, #24ff7f, #1567ff, #7133d6, #fa6413);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+
+.contact-container{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background: linear-gradient(to right, #000, #181e27, #000)
+}
+
+.contact-box{
+    gap: 50px;
+    display: flex;
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 40px;
+}
+
+.contact-header{
+    color: #03ffe6;
+    font-family: sans-serif;
+}
+
+.contact-text{
+    color: white;
+    font-family: sans-serif;
+}
+
+.contact-link{
+    color: white;
+    cursor: pointer;
+}
+
+.contact-link:hover{
+    color: aqua;
+    transition: .3s;
+}
+
+.contact-info{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

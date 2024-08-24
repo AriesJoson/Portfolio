@@ -1,0 +1,66 @@
+
+.goals-container{
+    height: 100%;
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right, #000, #181e27, #000);
+}
+
+
+.goals-header{
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.goals-main{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 100%;
+    margin: 50px 0;
+}
+
+.goals-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.typing-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-right{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.goals-vid{
+    height: 450px;
+    width: 450px;
+    border-radius: 30px;
+}
+
+.goals-text{
+    font-size: 16px;
+    text-align: justify;
+    color: #fff;
+    font-family: sans-serif;
+    word-spacing: 5px;
+    line-height: 30px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}

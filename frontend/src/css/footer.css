@@ -1,0 +1,14 @@
+
+.footer-container{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #000, #181e27, #000)
+}
+
+.footer-text{
+    font-size: 14px;
+    color: white;
+    font-family: sans-serif;
+}
